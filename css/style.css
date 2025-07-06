@@ -1,0 +1,150 @@
+body{
+    font-size: 16px;
+    background-color: #FAE3C6;
+}
+
+#header-nav{
+    background-color: #722323;
+    border-radius: 0;
+    border: 0;
+}
+
+.navbar {
+    min-height: 70px;
+  }
+  .navbar-brand {
+    padding-top: 15px;
+    padding-bottom: 20px;
+    height: auto;
+    line-height: normal;
+    
+  }
+
+  .navbar-brand h1{
+    font-family:"Outfit", sans-serif;
+    color: #FF9587;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 2em;
+    text-shadow: 0.5px 0.5px 0.5px #222;
+    line-height: .75;
+
+  }
+
+  h2{
+    font-size: 2em;
+    color: #722323;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+  }
+
+  .section-tall {
+    background-color: #BA487F;
+    color: white;
+    margin-top: 15px;
+    margin-right: -50px;
+    margin-left: -50px;
+    padding: 30px;
+    padding-top: 10px;
+}
+
+  h3{
+    text-align: center;
+    color: #FF9587;
+  }
+
+  /* Small Devices */
+  @media (min-width: 768px ) and (max-width: 991px){
+    .section-tall{
+      margin-left: 10px;
+      margin-right: 10px;
+    }
+  }
+
+  /* Medium Devices */
+  @media (min-width: 992px ) and (max-width: 1199px){
+    .section-tall{
+      /* margin: 30px; */
+      margin-left: 10px;
+      margin-right: 10px;
+    }
+  }
+
+/* Extra Small Devices */
+@media (max-width: 767px) {
+  .navbar-brand{
+    font-size: 1.1em;
+
+  }
+  .navbar-brand h1{
+    font-size: 1.8em;
+  }
+  h2{
+    font-size: 24px;
+  }
+
+  #nav-list, .collapse{
+    background-color: #BA487F ;
+    border:#222;
+  }
+
+  #nav-list a{
+    color: #FF9587;
+    text-align: center ;
+    border: 1px #222;
+  }
+
+  #nav-list a:hover{
+    color: #E195AB;
+  }
+
+
+  .collapse{
+    border: 2px solid whitesmoke;
+  }
+
+  #nav-list.chicken{
+    border: 2px solid whitesmoke;
+    border-right: 0;
+    border-left: 0;
+  }
+
+  #nav-list .beef{
+    border: 2px solid whitesmoke;
+    border-right: 0;
+    border-left: 0;
+  }
+
+  #nav-list .sushi{
+    border: 2px solid whitesmoke;
+    border-top: 0;
+    border-right: 0;
+    border-left: 0;
+    border-bottom: 0;
+
+  }
+
+  .navbar-header button.navbar-toggle, .navbar-header .icon-bar{
+    border: 1px solid #BA487F ;
+  }
+
+  .navbar-header button.navbar-toggle{
+    margin-top: 30px;
+  }
+
+  .section-tall {
+    background-color: #BA487F;
+    color: white;
+    margin: 30px;
+    margin-top: 10px;
+    padding: 30px;
+    padding-top: 10px;
+}
+  
+  h3{
+    font-size: 20px;
+  }
+  
+}
+
+  
