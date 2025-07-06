@@ -42,8 +42,6 @@ body{
     background-color: #BA487F;
     color: white;
     margin-top: 15px;
-    margin-right: -50px;
-    margin-left: -50px;
     padding: 30px;
     padding-top: 10px;
 }
@@ -51,23 +49,6 @@ body{
   h3{
     text-align: center;
     color: #FF9587;
-  }
-
-  /* Small Devices */
-  @media (min-width: 768px ) and (max-width: 991px){
-    .section-tall{
-      margin-left: 10px;
-      margin-right: 10px;
-    }
-  }
-
-  /* Medium Devices */
-  @media (min-width: 992px ) and (max-width: 1199px){
-    .section-tall{
-      /* margin: 30px; */
-      margin-left: 10px;
-      margin-right: 10px;
-    }
   }
 
 /* Extra Small Devices */
